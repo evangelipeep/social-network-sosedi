@@ -1,0 +1,46 @@
+.friend-list-container {
+  width: 50%;
+  margin: auto;
+}
+
+.friend-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  background-color: #939393;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffe082;
+  margin-right: 10px;
+}
+
+.friend-name {
+  color: #000000;
+  cursor: pointer;
+}
+
+.remove-button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #910000;
+  transition: 0.5s;
+}
