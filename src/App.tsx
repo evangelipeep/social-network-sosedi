@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom"
 import { Layout } from "./components/layout/Layout"
 import Home from "./components/pages/home/Home"
-import SocialProfile from "./components/pages/profile/SocialProfile"
+import SocialProfile, { User } from "./components/pages/profile/SocialProfile"
 import Friends from "./components/pages/friends/Friends"
 
 import Login from "./components/pages/auth/login/Login"

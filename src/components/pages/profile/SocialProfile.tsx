@@ -9,6 +9,7 @@ interface Post {
 
 export interface User {
   id: number
+  username: string
   name: string
   age: number
   city: string
