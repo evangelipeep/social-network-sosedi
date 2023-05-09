@@ -16,8 +16,6 @@ const Login: React.FC = () => {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault()
-    // Handle form submission (login or registration)
-    // ...
   }
 
   return (
