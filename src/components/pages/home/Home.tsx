@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import "./home.css"
 
 interface Post {
@@ -10,6 +10,21 @@ interface Post {
 
 const Home: React.FC = () => {
   const [posts, setPosts] = useState<Post[]>([])
+
+  // Генерация рандомных постов
+  useEffect(() => {
+    const randomPosts: Post[] = []
+    for (let i = 1; i <= 5; i++) {
+      const post: Post = {
+        id: i,
+        content: `Post ${i}`,
+        likes: Math.floor(Math.random() * 10),
+        isLiked: false,
+      }
+      randomPosts.push(post)
+    }
+    setPosts(randomPosts)
+  }, [])
 
   const handleLike = (postId: number) => {
     setPosts((prevPosts) => {

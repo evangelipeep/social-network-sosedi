@@ -13,6 +13,7 @@ const FriendList: React.FC = () => {
     { id: 1, name: "Тоторо" },
     { id: 2, name: "Котобус" },
     { id: 3, name: "Хаяо Миядзаки" },
+    { id: 4, name: "Теймураз Козанашвили" },
   ])
 
   const handleFriendClick = (friendId: number) => {

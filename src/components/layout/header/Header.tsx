@@ -1,8 +1,8 @@
 import React from "react"
 import { NavLink, Link } from "react-router-dom"
-import "./header.css"
 import { FaSearch, FaUser } from "react-icons/fa"
 import { ReactComponent as Logo } from "../../assets/logo.svg"
+import "./header.css"
 
 const Header = () => {
   const handleSearch = () => {
